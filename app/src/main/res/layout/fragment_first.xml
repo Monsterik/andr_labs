@@ -17,53 +17,7 @@
             android:id="@+id/linar_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:backgroundTint="@color/white"
-                android:insetTop="0dp"
-                android:insetBottom="1dp"
-                android:text="Кнопка"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
-
-            <Button
-                android:id="@+id/button14"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:backgroundTint="@color/white"
-                android:insetTop="0dp"
-                android:insetBottom="1dp"
-                android:text="Кнопка"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
-
-            <Button
-                android:id="@+id/button15"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:backgroundTint="@color/white"
-                android:insetTop="0dp"
-                android:insetBottom="1dp"
-                android:text="Кнопка"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
-
-            <Button
-                android:id="@+id/button16"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:backgroundTint="@color/white"
-                android:insetTop="0dp"
-                android:insetBottom="1dp"
-                android:text="Кнопка"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
-
-        </LinearLayout>
+            android:orientation="vertical"/>
     </ScrollView>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -105,7 +59,7 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="21dp"
         android:layout_marginBottom="24dp"
-        android:backgroundTint="#989898"
+        android:backgroundTint="#FFFFFF"
         app:backgroundTint="#4A403A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/scrollView2"
